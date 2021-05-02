@@ -1,4 +1,4 @@
-<template>
+<template id="back">
     <div id='case'>
       <div id='displayPart'>
         <span id='logPart'>{{calculLog}}</span><hr/>
@@ -137,13 +137,14 @@ export default {
     font-weight: normal;
     font-style: normal;
 }
-html{width:100%; height: 100%; font-size: 0; font-family: DOSSaemmul; background-image:"../assets/back.png";}
+html{width:100%; height: 100%; font-size: 0; font-family: DOSSaemmul;}
+#back{background-image:"../assets/back.png"; width: 100%; height: 100%;}
 #case{width: 300px; height: 450px; background-color: black; border-radius: 5%; border:thick double white;}
 #displayPart{width: 240px; height: 80px; text-align: right; margin:10px 15px; padding: 10px; border-radius: 2.5%;
 border:thick double black; background-color: white;}
 hr{border: 0; height: 3px; background-color: black;}
 #logPart{font-size: 15px;}
-#mainPart{font-size: 70px;}
+#mainPart{width: 260px; height: 100%; font-size: 65px; display:inline-block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 #buttonPart{width: 260px; height: 300px; margin:10px 15px; border-radius: 2.5%; border:thick double black;
 background-color: white;}
 table{width: 100%; border-collapse: collapse; border-spacing: 0px; table-layout: fixed;}
