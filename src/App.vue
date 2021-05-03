@@ -144,7 +144,7 @@ html{width:100%; height: 100%; font-size: 0; font-family: DOSSaemmul;}
 border:thick double black; background-color: white;}
 hr{border: 0; height: 3px; background-color: black;}
 #logPart{font-size: 15px;}
-#mainPart{width: 260px; height: 100%; font-size: 65px; display:inline-block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+#mainPart{width: 240px; height: 100%; font-size: 65px; display:inline-block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 #buttonPart{width: 260px; height: 300px; margin:10px 15px; border-radius: 2.5%; border:thick double black;
 background-color: white;}
 table{width: 100%; border-collapse: collapse; border-spacing: 0px; table-layout: fixed;}
