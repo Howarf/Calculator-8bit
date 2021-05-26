@@ -138,11 +138,7 @@ export default {
     font-style: normal;
 }
 html{width:100%; height: 100%; font-size: 0; font-family: DOSSaemmul;}
-body{background: url(../src/assets/back.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;}
+body{margin: 0; padding: 0; height: 94%; border-radius: 2.5%; border:thick double black; border-width: 25px;}
 #case{width: 300px; height: 450px; background-color: black; border-radius: 5%; border:thick double white; position:relative;
 left: 50%; transform:translate(-50%,30%);}
 #displayPart{width: 240px; height: 80px; text-align: right; margin:10px 15px; padding: 10px; border-radius: 2.5%;
@@ -158,5 +154,4 @@ td{padding: 0;}
 button{width: 100%; height: 60px; margin: 0; border:thick double black; background-color: white;}
 #text-b{font-size: 14px;}
 span{font-family: DOSSaemmul; font-size: 20px; padding: 0;}
-
-</style>
+</style>  
